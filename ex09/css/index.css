@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
+#showcase {
+    background-image: url("../img/gigi-logo.png");
+}
