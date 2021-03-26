@@ -1,27 +1,27 @@
 // Only change code below this line
-let shopingList = new Map();
+let shoppingList = new Map();
 
-shopingList.set("Banana", 3);
-shopingList.set("Pineapple", 5);
-shopingList.set("Pear", 2);
-shopingList.set("Carrot", 10);
-shopingList.set("Apple", 1.5);
+shoppingList.set("Banana", 3);
+shoppingList.set("Pineapple", 5);
+shoppingList.set("Pear", 2);
+shoppingList.set("Carrot", 10);
+shoppingList.set("Apple", 1.5);
 
 let arrKey = [];
-for (let key of shopingList.keys()) {
+for (let key of shoppingList.keys()) {
   arrKey = key;
   console.log(`grocerise: ${arrKey}`);
 }
 
 let arrValue = [];
-for (let value of shopingList.values()) {
+for (let value of shoppingList.values()) {
   arrValue = value;
   console.log(`amount: ${arrValue}`);
 }
 
-for (let [key, value] of shopingList.entries()) {
+for (let [key, value] of shoppingList.entries()) {
   console.log([key, value]);
 }
 
 // Only change code above this line
-module.exports = { shopingList, arrKey, arrValue };
+module.exports = { shoppingList, arrKey, arrValue };
